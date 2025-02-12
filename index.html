@@ -53,16 +53,23 @@
             </li>
           </ul>
         </address>
+        <button class="header-burger-btn" type="button">
+          <svg class="header-burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main class="main">
-      <section class="hero">
+      <section class="hidden">
+        class="hero"
         <div class="container hero-container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button class="main-button" type="button">Order Service</button>
         </div>
       </section>
-      <section class="section-quote">
+      <section class="hidden">
+        class="section-quote"
         <div class="container">
           <h2 class="visually-hidden">Section2</h2>
           <ul class="section-list">
@@ -118,7 +125,8 @@
           </ul>
         </div>
       </section>
-      <section class="section-team">
+      <section class="hidden">
+        class="section-team"
         <div class="container">
           <h2 class="team-desc">Our Team</h2>
           <ul class="team-list">
@@ -297,7 +305,8 @@
           </ul>
         </div>
       </section>
-      <section class="section-portfolio">
+      <section class="hidden">
+        class="section-portfolio"
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -431,7 +440,8 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer">
+    <footer class="hidden">
+      class="page-footer"
       <div class="container footer-content">
         <div class="footer-logo-content">
           <a class="logo footer-logo" href="./index.html"
@@ -500,7 +510,8 @@
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="hidden">
+      class="backdrop is-open"
       <div class="modal">
         <button class="modal-btn-close" type="button">
           <svg class="modal-btn-close-img" width="8" height="8">
@@ -588,6 +599,50 @@
           </div>
           <button class="review-form-send-btn" type="submit">Send</button>
         </form>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+
+    <div class="mobile-menu">
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close" type="button">
+          <svg class="mobile-menu-close-icon">
+            <use href="./images/icons.svg#"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav">Navigation</nav>
+        <address class="mobile-menu-adress">Adress</address>
+        <ul class="mobile-menu-links-list">
+          <li class="mobile-menu-links-item">
+            <a class="mobile-menu-icon-wrapper" href="">
+              <svg class="mobile-menu-socmedia-icon">
+                <use></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-links-item">
+            <a class="mobile-menu-icon-wrapper" href="">
+              <svg class="mobile-menu-socmedia-icon">
+                <use></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-links-item">
+            <a class="mobile-menu-icon-wrapper" href="">
+              <svg class="mobile-menu-socmedia-icon">
+                <use></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-links-item">
+            <a class="mobile-menu-icon-wrapper" href="">
+              <svg class="mobile-menu-socmedia-icon">
+                <use></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
