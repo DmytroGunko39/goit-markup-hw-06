@@ -628,6 +628,7 @@ button {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  row-gap: 72px;
   /* align-items: baseline; */
 }
 
@@ -637,9 +638,9 @@ button {
   margin-bottom: 16px;
 }
 
-.footer-logo-content {
+/* .footer-logo-content {
   margin-bottom: 72px;
-}
+} */
 
 .footer-logo .logo-part {
   color: #f4f4fd;
@@ -653,9 +654,9 @@ button {
   max-width: 288px;
 }
 
-.footer-social-media {
+/* .footer-social-media {
   margin-bottom: 72px;
-}
+} */
 
 .footer-socmedia-text {
   text-align: center;
@@ -915,6 +916,41 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  /*<-------------Sectione-Footer----------->*/
+  .footer-content {
+    align-items: baseline;
+    justify-content: left;
+    padding-left: 108px;
+    gap: 24px;
+    row-gap: 72px;
+  }
+
+  .footer-logo {
+    justify-content: flex-start;
+  }
+
+  .footer-text {
+    max-width: 264px;
+  }
+
+  .footer-socmedia-text {
+    text-align: start;
+  }
+
+  .footer-subscribe-title {
+    text-align: start;
+  }
+
+  .footer-subscribe-form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-subscribe-input {
+    width: 264px;
+  }
+  /*<-------------/Sectione-Footer----------->*/
   /*<-------------Sectione-Portfolio-4----------->*/
   .portfolio-list {
     gap: 24px;
@@ -1074,6 +1110,46 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
+  /*<-------------Sectione-Footer----------->*/
+  .page-footer {
+    padding: 100px 0 100px;
+  }
+
+  .footer-content {
+    gap: 0;
+    row-gap: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .footer-logo-content {
+    margin-right: 120px;
+  }
+
+  .footer-icon-wrapper:hover,
+  .footer-icon-wrapper:focus {
+    background-color: #31d0aa;
+  }
+
+  .footer-subscribe {
+    margin-left: 80px;
+  }
+
+  .footer-subscribe-input:hover {
+    outline: none;
+    border-color: #31d0aa;
+  }
+
+  .footer-subscribe-input::placeholder {
+    color: #ffffff;
+  }
+
+  .footer-form-subscribe-btn:hover,
+  .footer-form-subscribe-btn:focus {
+    background-color: #31d0aa;
+  }
+
+  /*<-------------/Sectione-Footer----------->*/
   /*<-------------Sectione-Portfolio-4----------->*/
   .section-portfolio {
     padding: 120px 0 120px 0;
