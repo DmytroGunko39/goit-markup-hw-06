@@ -200,7 +200,6 @@ button {
   margin-bottom: 16px;
   max-width: 360px;
 }
-
 /*<-------------/Sectione-Backdrop-title----------->*/
 
 /*<-------------Sectione-Backdrop-review-form-wrapper----------->*/
@@ -353,10 +352,9 @@ button {
 .review-form-send-btn:focus {
   background-color: #404bbf;
 }
-
 /*<-------------/Sectione-Backdrop-review-form-wrapper----------->*/
-
 /*<-------------/Sectione-Backdrop---------->*/
+
 /*<-------------Sectione-Hero---------->*/
 .hero {
   background-color: #2e2f42;
@@ -588,12 +586,6 @@ button {
   transform: translateY(0%);
 }
 
-/* .portfolio-item:focus {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
 .portfolio-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -638,10 +630,6 @@ button {
   margin-bottom: 16px;
 }
 
-/* .footer-logo-content {
-  margin-bottom: 72px;
-} */
-
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
@@ -653,10 +641,6 @@ button {
   color: #f4f4fd;
   max-width: 288px;
 }
-
-/* .footer-social-media {
-  margin-bottom: 72px;
-} */
 
 .footer-socmedia-text {
   text-align: center;
